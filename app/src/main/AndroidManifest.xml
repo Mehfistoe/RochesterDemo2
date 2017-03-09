@@ -3,6 +3,7 @@
     package="com.example.rochesterdemo2">
 
     <application
+        android:name=".RochesterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".ActivityA" />
+        <activity android:name=".ActivityB" />
+        <activity android:name=".ActivityC" />
+        <activity android:name=".ActivityD" />
+        <activity android:name=".AnimatorActivity" />
     </application>
 
 </manifest>
